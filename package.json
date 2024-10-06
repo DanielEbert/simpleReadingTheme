@@ -1,0 +1,26 @@
+{
+  "name": "simplereading",
+  "displayName": "SimpleReading",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Simple Reading",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simple Reading-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.1.1",
+    "generator-code": "^1.11.3",
+    "yo": "^5.0.0"
+  }
+}
